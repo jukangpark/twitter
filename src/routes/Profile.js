@@ -5,6 +5,7 @@ import { authService, dbService } from "../fbase";
 const Profile = ({ userObj, refreshUser }) => {
   const history = useHistory();
   const [newDisplayName, setNewDisplayName] = useState(userObj.displayName);
+  const [myNweets, setmyNweets] = useState([]);
   const onLogOutClick = () => {
     authService.signOut();
     history.push("/");
@@ -16,8 +17,11 @@ const Profile = ({ userObj, refreshUser }) => {
       .where("creatorId", "==", userObj.uid)
       .orderBy("createdAt")
       .get();
-    console.log(nweets.docs.map((doc) => doc.data()));
+    // setmyNweets(nweets.docs.find());
+    setmyNweets(nweets.docs.map((doc) => doc.data()));
   };
+
+  console.log("myNweets", myNweets);
 
   useEffect(() => {
     getMyNweets();
@@ -60,6 +64,9 @@ const Profile = ({ userObj, refreshUser }) => {
       <span className="formBtn cancelBtn logOut" onClick={onLogOutClick}>
         Log Out
       </span>
+      {myNweets.map((nweet, index) => (
+        <div key={index}>{nweet.text}</div>
+      ))}
     </div>
   );
 };
