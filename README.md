@@ -10,7 +10,7 @@
 </p>
 
 <p align='center'>
-    <a href="https://jukangpark.github.io/Twitter_Clone">Published Webpage</a> 👈🏻
+    <a href="https://jukangpark.github.io/twitter">Published Webpage</a> 👈🏻
 </p>
 
 ## 🛠 Using Skill
