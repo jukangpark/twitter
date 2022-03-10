@@ -1,82 +1,64 @@
-# Making Web App with React (Nomad Coder)
+# twitter clone with firebase
 
+## 서비스 소개
+
+<p align="center">
+    글을 올리고 공유할 수 있는 트위터 클론
+</p>
 <p align='center'>
-<img width="80%" alt="nweet_main" src="https://user-images.githubusercontent.com/79993356/153116224-d42205e7-6ba1-4c73-a1a9-90293ba73835.png">
-
+<img width="80%" alt="mainPage" src="https://user-images.githubusercontent.com/79993356/153116224-d42205e7-6ba1-4c73-a1a9-90293ba73835.png">
 </p>
 
 <p align='center'>
-    <a href="https://keinn51.github.io/Twitter_Page_Clone">Published Webpage</a>
+    <a href="https://jukangpark.github.io/Twitter_Clone">Published Webpage</a> 👈🏻
 </p>
 
 ## 🛠 Using Skill
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/React-^17.0.2-blue?logo=React"/>
-    <img src="https://img.shields.io/badge/react_dom-^17.0.2-blueviolet?logo=ReactOS"/>
-    <img src="https://img.shields.io/badge/react_router_dom-^6.2.1-critical?logo=React Table"/>
-    <img src="https://img.shields.io/badge/node.js-v16.13.2-green?logo=Node.js"/>
-    <img src="https://img.shields.io/badge/firebase-^9.6.6-yellow?logo=firebase"/>
-    <img src="https://img.shields.io/badge/gh__pages-%5E3.2.3-%23222222?logo=github pages"/>
-    <img src="https://img.shields.io/badge/uuid-^8.3.2-orange?logo=uuid"/>
+
+### client
+
+> @fortawesome/fontawesome-free: ^6.0.0
+> @fortawesome/free-brands-svg-icons: ^6.0.0
+> @fortawesome/free-solid-svg-icons: ^6.0.0
+> @fortawesome/react-fontawesome: ^0.1.17
+> gh-pages: ^3.2.3
+> react: ^17.0.2
+> react-dom: ^17.0.2
+> react-router-dom: ^5.3.0
+> react-scripts: 5.0.0
+> uuid: ^8.3.2
+
+### server
+
+> firebase: ^9.6.1
+
 </p>
 
-## 💁‍♂️ Introducing Project
+## 기능
 
-### Let's make the tiny chat app!
+- music 차트 / 검색 / 업로드 / 업데이트 / 삭제 / 듣기 / 좋아요
+- light / dark mode
+- user 생성 / 업데이트 / 삭제
 
-#### 🗂 Sign Up and Login with firestore
-
-> - With firestore, you can implement sign-up and log-in page. Users can sign-up with their own email, or using Google & Github Log-in.
-> - When you use the Google & Github Log-in, pop-up will helps you.
-
-#### 🔎 Chat your think
-
-> - If you log in, you can chat whenever you want with the other users.
-> - You can upload the Img file with Img upload.
-
-#### 🔥 Edit your own Profile
-
-> - Editing profile is permitted. You can change your nick-name.
-
-## 📁 Folder Structure
-
-This project includes
-
-- public :It is just for favicon or main index html. And some logos.
-- src : It is the main code for the project.
-
-## 💡 Major Implement
-
-- [Move to wiki!](https://github.com/keinn51/Twitter_Page_Clone/wiki#3-major-implement)
-
-## 🤸‍ How To Use?
-
-#### start
+## 실행 방법
 
 ```
-npm install
-npm start
+$ gh repo clone jukangpark/twitter
+$ npm install
+$ npm run start
 ```
 
-#### build
+## TroubleShooting
 
-```
-npm run build
-```
+1. firebase 설정
 
-#### deploy
+## 더 고민한다면
 
-Edit the value of "hompage" in package.json that you wanna show your project. then,
+- User Follow 기능 구현하기
+- 음악 조회수에 따른 변화 그래프 with Apex Chart 활용
+- 반응형 style 주기
+- 리액트 헬멧 사용하기
 
-```
-npm run deploy
-```
-
-## 🔖 Reference
-
-#### The class link is here
-
-###### [트위터 클론코딩](https://nomadcoders.co/nwitter)
-
-<img width="2008" alt="Course_main" src="https://user-images.githubusercontent.com/79993356/153118346-668d60e5-bcc2-4130-8610-25c576e257a4.png">
+## Demo 👇
