@@ -19,16 +19,16 @@
 
 ### client
 
-> @fortawesome/fontawesome-free: ^6.0.0
-> @fortawesome/free-brands-svg-icons: ^6.0.0
-> @fortawesome/free-solid-svg-icons: ^6.0.0
-> @fortawesome/react-fontawesome: ^0.1.17
-> gh-pages: ^3.2.3
-> react: ^17.0.2
-> react-dom: ^17.0.2
-> react-router-dom: ^5.3.0
-> react-scripts: 5.0.0
-> uuid: ^8.3.2
+> @fortawesome/fontawesome-free: ^6.0.0 <br>
+> @fortawesome/free-brands-svg-icons: ^6.0.0<br>
+> @fortawesome/free-solid-svg-icons: ^6.0.0<br>
+> @fortawesome/react-fontawesome: ^0.1.17<br>
+> gh-pages: ^3.2.3<br>
+> react: ^17.0.2<br>
+> react-dom: ^17.0.2<br>
+> react-router-dom: ^5.3.0<br>
+> react-scripts: 5.0.0<br>
+> uuid: ^8.3.2<br>
 
 ### server
 
